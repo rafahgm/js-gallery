@@ -1,0 +1,30 @@
+{
+  "name": "js-gallery",
+  "version": "1.0.0",
+  "description": "Gallery Library using Javascript",
+  "main": "main.ts",
+  "author": "Rafael Morais",
+  "license": "MIT",
+  "scripts": {
+    "serve": "npx gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.9",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0",
+    "tsify": "^5.0.4",
+    "typescript": "^4.6.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.10.2"
+  }
+}
